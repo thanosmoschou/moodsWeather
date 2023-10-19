@@ -9,7 +9,7 @@ Enter your city to find it!! <br>
 ### How it works
 Type the name of your city, press the search button and let the app show you the weather forecast! <br>
 The app uses 2 apis to get the job done. <br>
-The first api is the Geocoding API of Open-Meteo (https://www.open-meteo.com) <br>
+The first api is the Geocoding API of https://www.open-meteo.com <br>
 App sends a request to this api by providing a city's name and it gets back the longitude and the latitude of the city <br>
 (First it receives a JSON response and it manipulates the JSON to get the longitude and the latitude). <br>
 The second api is the Weather Forecast API of Open-Meteo. <br>
