@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="screenContainer" fx:id="screenContainer" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <ImageView id="weatherIconContainer" fx:id="weatherIconContainer" fitHeight="96.0" fitWidth="117.0" layoutX="42.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField id="inputField" fx:id="inputField" layoutX="14.0" layoutY="76.0" prefHeight="40.0" prefWidth="310.0" />
+      <Button id="searchButton" fx:id="searchButton" layoutX="346.0" layoutY="76.0" mnemonicParsing="false" onAction="#retrieveData" prefHeight="40.0" prefWidth="40.0" />
+      <Label id="promptLabel" fx:id="promptLabel" layoutY="24.0" prefHeight="26.0" prefWidth="400.0" text="Enter your city" />
+      <Label id="predictionLabel" fx:id="predictionLabel" layoutY="287.0" prefHeight="34.0" prefWidth="180.0" />
+      <Label id="temperatureLabel" fx:id="temperatureLabel" layoutX="213.0" layoutY="287.0" prefHeight="34.0" prefWidth="180.0" AnchorPane.bottomAnchor="179.0" AnchorPane.leftAnchor="213.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="287.0" />
+      <ImageView id="thermometerIconContainer" fx:id="thermometerIconContainer" fitHeight="96.0" fitWidth="117.0" layoutX="255.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true" />
+      <Label id="authorLabel" fx:id="authorLabel" layoutX="251.0" layoutY="466.0" prefHeight="20.0" prefWidth="145.0" text="v1.0 by Thanos Moschou" />
+   </children>
+</AnchorPane>

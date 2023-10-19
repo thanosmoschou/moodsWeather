@@ -1,0 +1,50 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+@font-face{
+	font-family: Sofia;
+	src: url("/fonts/Sofia-Regular.ttf");
+}
+
+@font-face{
+	font-family: Rosarivo;
+	src: url("/fonts/Rosarivo-Regular.ttf");
+}
+
+
+#screenContainer{
+	-fx-background-image: url("/widgets/backgroundSky.jpg");
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: 400 500;
+	-fx-background-position: center;
+}
+
+
+#promptLabel, #predictionLabel, #temperatureLabel{
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+	-fx-font-size: 20;
+	-fx-font-family: Sofia;
+	-fx-text-fill: white;
+}
+
+#authorLabel{
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+	-fx-font-family: Sofia;
+	-fx-font-size: 11;
+	-fx-text-fill: white;
+}
+
+#inputField{
+	-fx-border-color: transparent;
+	-fx-text-fill: black;
+	-fx-opacity: 0.7;
+}
+
+#searchButton{
+	-fx-background-image: url("/widgets/search.png");
+	-fx-background-color: #00303d;
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: 40 40;
+	-fx-background-position: center center;
+}
