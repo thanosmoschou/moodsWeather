@@ -1,6 +1,6 @@
 /*
  * Author: Thanos Moschou
- * Last Modification Date: 1/10/2023
+ * Last Modification Date: 19/10/2023
  * Description: This is a simple weather app. It is my first app using a request to an api
  */
 
