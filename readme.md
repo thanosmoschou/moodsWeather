@@ -35,7 +35,7 @@ Right click on project -> Build Path -> Add Libraries -> User Library -> Select 
 Now you need to type something more: Right click on the project -> Run As -> Run Configurations -> On the menu in the central part of the page select Arguments -> On the vm arguments section type: 
 --module-path "path\to\javafx\lib" --add-modules javafx.controls,javafx.fxml <br>
 
-Be sure you have changed ```path\to\javafx\lib``` to the original path of the javafx sdk lib folder. <br>
+Make sure you have changed ```path\to\javafx\lib``` to the original path of the javafx sdk lib folder. <br>
 Finally press Apply and then Run. <br>
 
 If you have an error while initializing boot layer:
@@ -48,7 +48,7 @@ Open the runnableJar folder in a command line interface (Right click in the fold
 java --module-path "path\to\javafx\lib" --add-modules javafx.controls,javafx.fxml -jar moods.jar
 ```
 
-Be sure you have changed ```path\to\javafx\lib``` to the original path of the javafx sdk lib folder. <br>
+Make sure you have changed ```path\to\javafx\lib``` to the original path of the javafx sdk lib folder. <br>
 
 ### Disclaimer
 All icons that are used inside the app are from https://icons8.com
