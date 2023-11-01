@@ -33,7 +33,7 @@ Add the JavaFX SDK as a library. <br>
 Right click on project -> Build Path -> Add Libraries -> User Library -> Select the one you created for javafx -> Finish <br>
 
 Now you need to type something more: Right click on the project -> Run As -> Run Configurations -> On the menu in the central part of the page select Arguments -> On the vm arguments section type: 
---module-path "path\to\javafx\lib" --add-modules javafx.controls,javafx.fxml <br>
+```--module-path "path\to\javafx\lib" --add-modules javafx.controls,javafx.fxml``` <br>
 
 Make sure you have changed ```path\to\javafx\lib``` to the original path of the javafx sdk lib folder. <br>
 Finally press Apply and then Run. <br>
