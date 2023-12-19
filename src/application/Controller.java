@@ -102,7 +102,7 @@ public class Controller
 		 * I have a json object (specified with {}). I get the value of "results" 
 		 * which is a json array. I want to get the first element of this array specified by 0 index.
 		 * Now I get it as json object. I want to get the value of "latitude"
-   		 * JsonArray has JsonElements inside.
+   		 * JsonArray has Json objects inside.
 		 */
 		
 		double latitude = Double.parseDouble(JsonParser.parseString(response.body())
