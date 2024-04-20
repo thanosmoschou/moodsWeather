@@ -50,6 +50,3 @@ java --module-path "path\to\javafx\lib" --add-modules javafx.controls,javafx.fxm
 
 Make sure you have changed ```path\to\javafx\lib``` to the original path of the javafx sdk lib folder. <br>
 
-### Disclaimer
-All icons that are used inside the app are from https://icons8.com
-
